@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulka v HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Tabulky v HTML</h1>
+    </header>
+    <main>
+        <h2>Slavná osobnost: Václav Havel</h2>
+        <table>
+            <caption>Vizitka Václava Havla</caption>
+            <thead>
+                <tr>
+                    <th>Portrét</th>
+                    <th colspan="2">Základní údaje</th>
+                    <th>Významné činy</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img src="img/havel.jpeg" height="250" alt="Václav Havel"></td>
+                    <td colspan="2">Jméno a příjmení</td>
+                    <td rowspan="4">Díla</td>
+                </tr>
+                <tr>
+                    <td>Narození</td>
+                    <td>Úmrtí</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">Stručná charakteristika</td>
+                </tr>
+                <tr>
+                    <td>Popisek fotky</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="4">Odkaz na Wikipedii</td>
+            </tfoot>
+        </table>
+    </main>
+    <footer></footer>
+</body>
+</html>
