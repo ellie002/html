@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia a HTML</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <header>
+        <h1>Multimedia a HTML</h1>
+    </header>
+    <main>
+        <h2>Obrázky v HTML</h2>
+        <figure>
+            <img src="img/havel.jpeg" height="250" alt="Václav Havel">
+            <figcaption>První český prezident Václav Havel</figcaption>
+        </figure>
+        <h2>Audio a video v HTML</h2>
+        <figure>
+            <video height="250" controls autoplay muted>
+                <source src="media/movie.mp4" type="video/mp4">
+                Váš prohlížeč bohužel tento formát nepodporuje.
+            </video>
+            <figcaption>Medvěd ve vodě</figcaption>
+        </figure>
+        <figure>
+            <audio controls>
+                <source src="media/horse.ogv" type="audio/ogg">
+                Váš prohlížeč bohužel tento formát nepodporuje.
+            </audio>
+            <figcaption>Koňské řehtání</figcaption>
+        </figure>
+        <h2>Video z Youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UbYQErtM9Zk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

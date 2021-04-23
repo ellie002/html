@@ -1,0 +1,19 @@
+table {
+    width: 50%;
+}
+
+table, td, th {
+    border: 4px solid orangered;
+    border-collapse: collapse;
+}
+
+dt {
+    font-weight: 500;
+    font-size: 1.5em ;
+    margin-top: 10px;
+}
+
+dd {
+    font-style: italic;
+    margin-top: 10px;
+}
