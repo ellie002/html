@@ -1,8 +1,14 @@
+main {
+    background-color: #eee;
+    width: 80%;
+    margin: 0 auto;
+}
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 23%;
 }
   
 div.gallery:hover {
@@ -17,4 +23,30 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 1200px ) {
+    main {
+        width: 90%;
+    }
+
+    div.gallery {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 800px ) {
+    div.gallery {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 500px ) {
+    div.gallery {
+        width: 100%;
+    }
 }
