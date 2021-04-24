@@ -1,7 +1,19 @@
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
 main {
-    background-color: #eee;
-    width: 80%;
+    background-color: rgba(152, 200, 255, 0.562);
     margin: 0 auto;
+    width: 1227px;
+    margin: auto auto;
+    border: 10px solid black;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
 }
 
 div.gallery {
@@ -29,6 +41,34 @@ div.desc {
     clear: both;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(152, 200, 255);
+    color: white;
+}
+
 @media only screen and (max-width: 1200px ) {
     main {
         width: 90%;
@@ -50,3 +90,6 @@ div.desc {
         width: 100%;
     }
 }
+ footer {
+     text-align: center;
+ }

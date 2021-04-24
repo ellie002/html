@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,17 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/table.css">
 </head>
+
 <body>
     <header>
         <h1>Tabulky v HTML</h1>
     </header>
+        <!-- Horní navigační lišta -->
+        <div class="topnav">
+            <a class="active" href="#">Tabulka</a>
+            <a href="galerie.html">Fotogalerie</a>
+            <a href="multimedia.html">Multimédia</a>
+        </div>
     <main>
         <h2>Slavná osobnost: Václav Havel</h2>
         <table>
@@ -19,28 +27,35 @@
                 <tr>
                     <th>Portrét</th>
                     <th colspan="2">Základní údaje</th>
-                    <th>Významné činy</th> 
+                    <th>Díla</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td rowspan="3"><img src="img/havel.jpeg" height="250" alt="Václav Havel"></td>
-                    <td colspan="2">Jméno a příjmení</td>
-                    <td rowspan="4">Díla</td>
+                    <td colspan="2">Václav Havel</td>
+                    <td rowspan="4">Čtyři rané básně, Záchvěvy, První úpisy, Prostory a časy, Na okraji jara,
+                        Antikódy, Zahradní slavnost, Odcházení</td>
                 </tr>
                 <tr>
-                    <td>Narození</td>
-                    <td>Úmrtí</td>
+                    <td>5. října 1936</td>
+                    <td>18. prosince 2011</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" colspan="2">Stručná charakteristika</td>
+                    <td rowspan="2" colspan="2">Václav Havel
+                        byl český dramatik, esejista, disident a kritik komunistického režimu, později politik a
+                        státník. Byl devátým a posledním prezidentem Československa a prvním prezidentem
+                        České republiky.
+                    </td>
                 </tr>
                 <tr>
-                    <td>Popisek fotky</td>
+                    <td>Prezident Václav Havel</td>
                 </tr>
             </tbody>
             <tfoot>
-                <td colspan="4">Odkaz na Wikipedii</td>
+                <td colspan="4">Odkaz na Wikipedii - <a
+                        href="https://cs.wikipedia.org/wiki/V%C3%A1clav_Havel">https://cs.wikipedia.org/wiki/V%C3%A1clav_Havel</a>
+                </td>
             </tfoot>
         </table>
         <h2>Značky a atributy tabulky</h2>
@@ -49,8 +64,19 @@
             <dd>Atribut zajišťující rozpětí přes několik sloupců</dd>
             <dt>rowspan</dt>
             <dd>Atribut zajišťující rozpětí přes několik řádků</dd>
+            <dt>table</dt>
+            <dd>Značka ohraničující celou tabulku</dd>
+            <dt>thead</dt>
+            <dd>Záhlaví zabulky</dd>
+            <dt>th</dt>
+            <dd>Definuje buňku záhlaví v tabulce</dd>
+            <dt>td</dt>
+            <dd>Definuje buňku v tabulce</dd>
+            <dt>tr</dt>
+            <dd>Definuje řádek v tabulce</dd>
         </dl>
     </main>
     <footer></footer>
 </body>
+
 </html>
